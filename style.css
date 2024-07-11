@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins', 'roboto', 'montserrat';
+    outline: none;
+}
+
+body {
+    background: #28282B;
+}
+
+.logo {
+    background-color: #222;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.logo h4 {
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.logo h4:hover {
+    color: greenyellow;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 20px 0 20px 0;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links a {
+    background-color: #225;
+    margin: 10px;
+    padding: 15px 250px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.social-links a:hover { 
+    border: 2px solid greenyellow;
+}
+
+.social-links i {
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+i:hover {
+    color: white;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #222;
+}
